@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: maiagent
+    config:
+        import: optional:file:.env[.properties]
+
+gemini:
+    api-key: ${GEMINI_API_KEY}
+    model: gemini-2.5-flash

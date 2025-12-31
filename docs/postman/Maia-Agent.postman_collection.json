@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "ed74467a-9a4e-4a33-a1d9-02f65b48e42e",
+		"name": "Maia Agent",
+		"description": "Agente de IA que realiza simulações de aluguel corporativo de veículos.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6675565"
+	},
+	"item": [
+		{
+			"name": "1. Valor do aluguel de carro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Qual o valor para um carro suv por 3 dias?",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/assistant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"assistant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Categorias oferecidas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Quais categorias vocês oferecem?",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/assistant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"assistant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Política de combustível",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Como funciona a política de combustível?",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/assistant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"assistant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Diferença entre as categorias",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Qual a diferença entre SUV e Premium?",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/assistant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"assistant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. Simulação de aluguel ex. 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Simule o aluguel de um SUV por 15 dias.",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/assistant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"assistant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5. Simulação de aluguel ex. 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Quanto fica um carro economico por 5 dias?",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/assistant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"assistant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6. Simulação de aluguel sem todos parâmetros esperados",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Quanto cussta o SUV?",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/assistant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"assistant"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
