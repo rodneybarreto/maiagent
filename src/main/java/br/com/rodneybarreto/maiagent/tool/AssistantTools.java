@@ -25,8 +25,8 @@ public class AssistantTools {
 
     @Tool("Calcula o valor total do aluguel corporativo com base na categoria do carro e número de dias.")
     public String calculateQuotation(String category, int days) {
-        Double base = DAILY_BASE_PRICE.get(category.toLowerCase(Locale.ROOT));
-        Double rate = INSURANCE_RATE.get(category.toLowerCase(Locale.ROOT));
+        double base = DAILY_BASE_PRICE.get(category.toLowerCase(Locale.ROOT));
+        double rate = INSURANCE_RATE.get(category.toLowerCase(Locale.ROOT));
 
         double total = (base * days) * (1 + rate);
         log.info("total da simulação: {}", total);
